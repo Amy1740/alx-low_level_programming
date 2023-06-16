@@ -11,9 +11,9 @@ int main(void)
 {
 	int z;
 
-	for (z = 101; z < 127; z++)
+	for (z = 97; z < 123; z++)
 	{
-		if (z != 106 && z != 118)
+		if (z != 101 && z != 113)
 		{
 			putchar(z);
 		}
