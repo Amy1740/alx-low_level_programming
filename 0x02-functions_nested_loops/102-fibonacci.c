@@ -15,7 +15,7 @@ int main(void)
 
 	for (n = 2; n < 50; n++)
 	{
-		array[n] = fibonacci[n - 1] + fibonacci[n - 2];
+		array[n] = array[n - 1] + array[n - 2];
 		if (n == 49)
 			printf("%ld\n", array[n]);
 		else
